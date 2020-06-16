@@ -1,0 +1,64 @@
+h1 {
+  font-size: 6.357083396904192rem;
+  font-family: "Rubik", Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Rubik", Helvetica, sans-serif;
+}
+h3 {
+  font-size: 1.8249rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.272rem;
+}
+h6 {
+  font-size: 1.1278rem;
+}
+
+.future-list {
+  font-size: 1.618rem;
+}
+
+.skill-text {
+  font-size: 1.4346rem;
+}
+
+.skill-logo {
+  display: flex;
+  align-items: center;
+}
+.skill-text {
+  margin-left: 1rem;
+}
+
+.font-secondary {
+  font-family: "Rubik";
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

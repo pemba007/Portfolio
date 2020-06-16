@@ -1,0 +1,250 @@
+* {
+  font-family: "Karla", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d47a1;
+}
+
+.padded {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.no-marg {
+  margin: 0;
+}
+
+.call-to-action {
+  margin: 0;
+  font-size: 0.8867rem;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  border-radius: 0;
+  margin: 10px 0;
+}
+
+html {
+  background-color: #0d47a1;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-ul li {
+  font-size: 1.272rem;
+  margin-right: 1rem;
+  color: #fafaf6;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.logo {
+  color: #fafaf6;
+  font-size: 2rem;
+}
+
+.intro {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.intro-text {
+  display: flex;
+  align-items: center;
+}
+
+.web-dev-svg {
+  flex: 1;
+  display: flex;
+}
+
+.about-me {
+  padding-bottom: 10rem;
+}
+
+/* Delete */
+.highlight {
+  background-color: red;
+}
+
+.skill-container {
+  padding: 3rem 0;
+}
+
+.svg-img {
+  width: 100%;
+  height: auto;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+}
+
+.skill-progress {
+  margin: 1rem 0;
+  background: white;
+  height: 8px;
+  width: 80%;
+  /* margin: 0; */
+  border-radius: 5px;
+  position: relative;
+}
+
+.skill-inner-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.single-skill {
+  margin-bottom: 2rem;
+}
+
+#skill-svg {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.portfolio-logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.mobile-design-img {
+  display: flex;
+  padding: 5rem 0 0 0;
+  justify-content: space-evenly;
+}
+
+#future-missions {
+  padding-bottom: 0;
+}
+
+.future-mission {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 7rem;
+}
+.future-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.future-single {
+  display: flex;
+}
+.future-single p {
+  margin: 0;
+  margin-left: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mobile-design-img {
+    flex-direction: column;
+  }
+  .future-list {
+    padding: 3rem 0;
+  }
+  .future-mission {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+  }
+  .future-single {
+    margin-bottom: 2rem;
+  }
+  .portfolio-logo-container {
+    flex-direction: column;
+  }
+  .logo-single {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  #skill-svg {
+    width: 100%;
+  }
+  .skill-progress {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .padded {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .intro-text {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .web-dev-svg {
+    padding: 0 3rem;
+  }
+
+  .svg-padding {
+    padding: 0 3rem;
+  }
+  .about-me {
+    padding-bottom: 4rem;
+  }
+  .skill-container {
+    padding: 3rem 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .padded { */
+  /* padding-left: 0rem;
+    padding-right: 0rem; */
+  /* } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .padded { */
+  /* padding-left: 0rem;
+    padding-right: 0rem; */
+  /* } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .padded { */
+  /* padding-left: 0rem;
+    padding-right: 0rem; */
+  /* } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .padded { */
+  /* padding-left: 0rem;
+    padding-right: 0rem; */
+  /* } */
+}
