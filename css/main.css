@@ -148,6 +148,7 @@ html {
   justify-content: space-evenly;
   padding-top: 7rem;
 }
+
 .future-list {
   display: flex;
   flex-direction: column;
@@ -164,6 +165,29 @@ html {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .cta-btn {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .intro-text {
+    text-align: center;
+  }
+  .call-to-action {
+    width: 100%;
+  }
+  .about-img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+  .future-mission .my-photo {
+    display: flex;
+    margin: auto;
+  }
   .mobile-design-img {
     flex-direction: column;
   }
@@ -186,7 +210,7 @@ html {
     justify-content: center;
   }
   #skill-svg {
-    width: 100%;
+    width: 80%;
   }
   .skill-progress {
     width: 100%;
@@ -218,19 +242,75 @@ html {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* .padded { */
-  /* padding-left: 0rem;
-    padding-right: 0rem; */
-  /* } */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .padded {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .intro-text {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .about-img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+  .portfolio-logo-container {
+    flex-direction: column;
+  }
+  .logo-single {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-design-img {
+    flex-direction: column;
+  }
+  .skill-progress {
+    width: 100%;
+  }
+  .future-list {
+    padding: 3rem 0;
+  }
+  .future-mission {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+  }
+  .future-single {
+    margin-bottom: 2rem;
+  }
+  .future-mission .my-photo {
+    display: flex;
+    margin: auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* .padded { */
-  /* padding-left: 0rem;
-    padding-right: 0rem; */
-  /* } */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .padded {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .tab-remove {
+    display: none;
+  }
+  .about-img {
+    width: 95%;
+  }
+  .about-me {
+    padding-bottom: 4rem;
+  }
+  .portfolio-logo-container {
+    padding: 0;
+  }
+  .future-mission {
+    flex-direction: row;
+    padding-top: 4rem;
+  }
+  .future-list {
+    padding: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -241,10 +321,23 @@ html {
   /* } */
 }
 
+@media only screen and (min-width: 2000px) {
+  .padded {
+    padding-left: 30rem;
+    padding-right: 30rem;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  /* .padded { */
-  /* padding-left: 0rem;
-    padding-right: 0rem; */
-  /* } */
+@media only screen and (min-width: 2500px) {
+  .padded {
+    padding-left: 40rem;
+    padding-right: 40rem;
+  }
+  .about-img {
+    width: 70%;
+  }
+  #skill-svg {
+    width: 60%;
+  }
 }
