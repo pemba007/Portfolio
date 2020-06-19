@@ -37,17 +37,31 @@
   </head>
   <body>
     <header>
-      <nav class="nav-header">
-        <div class="logo">
-          PS
+      <nav class="nav-header navbar navbar-dark navbar-expand-lg padded">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="logo white-text navbar-brand" href="#">
+            PS
+          </a>
+
+          <ul class="nav-ul navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">About Me</li>
+            <li class="nav-item">Skills</li>
+            <li class="nav-item">Works</li>
+            <li class="nav-item">Contact</li>
+          </ul>
         </div>
-        <ul class="nav-ul">
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Skills</li>
-          <li>Works</li>
-          <li>Contact</li>
-        </ul>
       </nav>
     </header>
     <main>
@@ -82,7 +96,11 @@
       >
         <div class="row">
           <div class="col-md-6 svg-padding">
-            <img src="/svg/about.svg" alt="About Me" class="col-md no-pad about-img" />
+            <img
+              src="/svg/about.svg"
+              alt="About Me"
+              class="col-md no-pad about-img"
+            />
           </div>
           <div class="col-md-1 tab-remove"></div>
           <div class="col-md-5 black-text text-center about-me">
@@ -184,6 +202,7 @@
           <div class="logo-single">
             <img src="svg/SmartChourey.svg" />
           </div>
+        </div>
       </section>
       <section id="mobile-design" class="padded intro white-text">
         <h2 class="text-center">Mobile Design</h2>
@@ -192,12 +211,15 @@
           <img src="images/smart_mobile_design@2x.png" />
         </div>
       </section>
-      <section id="future-missions" class="padded intro white-text container-fluid">
+      <section
+        id="future-missions"
+        class="padded intro white-text container-fluid"
+      >
         <h2 class="text-center">Future Mission</h2>
         <h6 class="light-white-text text-center">Things I want to know</h6>
         <div class="future-mission">
-          <div class="col-md-6 ">
-            <img src="images/me@2x.png" class="my-photo"/>
+          <div class="col-md-6">
+            <img src="images/me@2x.png" class="my-photo" />
           </div>
           <div class="col-md-6">
             <div class="future-list">
@@ -222,11 +244,19 @@
                 <img src="svg/future-list.svg" />
                 <p>Hybrid Games with bluetooth communication</p>
               </div>
-              
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="white-text padded">
+      <div class="footer-icons">
+        <img src="svg/facebook.svg" />
+        <img src="svg/twitter.svg" />
+        <img src="svg/Icon awesome-instagram.svg" />
+        <img src="svg/Icon awesome-linkedin.svg" />
+        <img src="svg/Icon awesome-github.svg" />
+      </div>
+    </footer>
   </body>
 </html>

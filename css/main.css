@@ -40,11 +40,13 @@ html {
 .nav-ul {
   list-style: none;
   display: flex;
+  flex: 1;
+  justify-content: space-evenly;
 }
 
 .nav-ul li {
   font-size: 1.272rem;
-  margin-right: 1rem;
+  /* margin-right: 3rem; */
   color: #fafaf6;
 }
 
@@ -57,6 +59,7 @@ html {
 .logo {
   color: #fafaf6;
   font-size: 2rem;
+  flex: 0.5;
 }
 
 .intro {
@@ -163,6 +166,19 @@ html {
   margin-left: 20px;
 }
 
+footer {
+  background-color: #06214c;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-icons {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .cta-btn {
@@ -215,9 +231,7 @@ html {
   .skill-progress {
     width: 100%;
   }
-  header {
-    display: none;
-  }
+
   .padded {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -238,6 +252,16 @@ html {
   }
   .skill-container {
     padding: 3rem 0;
+  }
+  .footer-icons {
+    flex-direction: column;
+  }
+  .footer-icons img {
+    margin-top: 1rem;
+  }
+  footer {
+    padding: 0;
+    padding-bottom: 1rem;
   }
 }
 
@@ -284,6 +308,9 @@ html {
     display: flex;
     margin: auto;
   }
+  .footer-icons {
+    width: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -311,14 +338,27 @@ html {
   .future-list {
     padding: 0;
   }
+  .footer-icons {
+    width: 50%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  /* .padded { */
-  /* padding-left: 0rem;
-    padding-right: 0rem; */
-  /* } */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .padded {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .logo {
+    flex: 0.3;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .padded {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
 }
 
 @media only screen and (min-width: 2000px) {
