@@ -294,6 +294,10 @@ footer {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  .nav-header {
+    display: flex;
+    justify-content: flex-end;
+  }
   .intro-text {
     margin-top: 4rem;
     margin-bottom: 1rem;
@@ -341,6 +345,12 @@ footer {
   .padded {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .mobile-design-img {
+    flex-direction: column;
+  }
+  .mobile-design-img img {
+    object-fit: contain;
   }
   .tab-remove {
     display: none;
