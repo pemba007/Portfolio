@@ -21,3 +21,11 @@
 .skill-color {
   background-color: #00d1ff;
 }
+
+a {
+  color: #fafaf6;
+}
+a:hover {
+  color: #505050;
+  text-decoration: none;
+}

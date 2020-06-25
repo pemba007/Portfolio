@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0d47a1;
 }
@@ -181,12 +185,20 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  #intro-section {
+    padding-top: 1rem;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: flex-end;
+  }
   .cta-btn {
     display: flex;
     width: 50%;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 3rem;
     margin-bottom: 1rem;
+    margin-left: 0;
   }
   .intro-text {
     text-align: center;
@@ -239,7 +251,9 @@ footer {
   .intro-text {
     padding-top: 4rem;
     padding-bottom: 1rem;
+    text-align: left;
   }
+
   .web-dev-svg {
     padding: 0 3rem;
   }
@@ -250,14 +264,23 @@ footer {
   .about-me {
     padding-bottom: 4rem;
   }
+  .about-me h5 {
+    text-align: justify;
+  }
+  .about-me h2 {
+    text-align: left;
+  }
   .skill-container {
     padding: 3rem 0;
   }
   .footer-icons {
     flex-direction: column;
   }
-  .footer-icons img {
-    margin-top: 1rem;
+  .footer-icons a {
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
   }
   footer {
     padding: 0;
