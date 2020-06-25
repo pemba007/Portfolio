@@ -202,6 +202,10 @@ footer {
   }
   .intro-text {
     text-align: center;
+    padding-left: 1rem;
+  }
+  .intro-text div {
+    margin-left: 0 !important;
   }
   .call-to-action {
     width: 100%;
