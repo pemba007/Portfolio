@@ -283,8 +283,6 @@ footer {
   .footer-icons a {
     padding-top: 1rem;
     margin: auto;
-    display: flex;
-    align-items: center;
   }
   footer {
     padding: 0;
@@ -341,6 +339,13 @@ footer {
   }
   .footer-icons {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-icons a {
+    display: flex;
+    align-items: center;
   }
 }
 
