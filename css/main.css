@@ -86,6 +86,10 @@ html {
   padding-bottom: 10rem;
 }
 
+.about-me h5 {
+  line-height: 1.5;
+}
+
 /* Delete */
 .highlight {
   background-color: red;
