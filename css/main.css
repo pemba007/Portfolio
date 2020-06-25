@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  line-height: 1.5;
 }
 
 body {
@@ -276,7 +277,7 @@ footer {
     padding-bottom: 4rem;
   }
   .about-me h5 {
-    text-align: justify;
+    text-align: left;
   }
   .about-me h2 {
     text-align: left;
@@ -377,9 +378,7 @@ footer {
   .about-me {
     padding-bottom: 4rem;
   }
-  .portfolio-logo-container {
-    padding: 0;
-  }
+
   .future-mission {
     flex-direction: row;
     padding-top: 4rem;
