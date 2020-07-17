@@ -292,14 +292,16 @@ footer {
     padding: 3rem 0;
   }
   .footer-icons {
-    flex-direction: column;
+    /* flex-direction: column; */
+    width: unset;
   }
+
   .footer-icons a {
     padding-top: 1rem;
     margin: auto;
   }
   footer {
-    padding: 0;
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
